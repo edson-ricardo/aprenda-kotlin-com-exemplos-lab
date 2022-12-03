@@ -23,12 +23,6 @@ data class Formacao(var nome: String, var conteudos: List<ConteudoEducacional>) 
             println("Nome: ${usuario.nome} | CPF: ${usuario.CPF}")
         }
     }
-
-    /*fun conteudoFormacao() {
-        for (conteudo in conteudos) {
-            println("${conteudo.nome} - ${conteudo.duracao}h")
-        }
-    }*/
 }
 
 fun main() {
